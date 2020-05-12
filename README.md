@@ -22,7 +22,7 @@ The partd_plot.m uses ode45 to solve the equations and creates the graph. The co
 ##### Part (e)
 See Prelim1_full.pdf for the chosen S values and corresponding steady state values for X, Y, and Z, as well as explanations. 
 
-To reproduce the plots, I used partd_plot.m, partd.m, partd2.m, partd3.m, and part4.m. Part4_m was solely used to find the steady state values at S=0.1 and S=39,000. From there, I manually plugged in the S.S. values into the initial conditions for S=100 in the partd.m,part2d.m, and partd3.m scripts and I manually plugged in the multipliers. 
+To reproduce the plots, I used partd_plot.m, partd.m, partd2.m, partd3.m, and part4.m. Part4_m was solely used to find the steady state values at S=0.1 and S=39,000. From there, I manually plugged in the S.S. values into the initial conditions for S=100 in the partd_plot.m script, and manually plugged in the multipliers to the partd.m, part2.m, and part3.m scripts. 
 ##### Part (f) 
 See Prelim1_full.pdf 
 
